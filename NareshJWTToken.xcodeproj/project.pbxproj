@@ -13,6 +13,7 @@
 		D91A019F1FDA7C820094CF8E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91A019E1FDA7C820094CF8E /* Assets.xcassets */; };
 		D91A01A21FDA7C820094CF8E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91A01A01FDA7C820094CF8E /* LaunchScreen.storyboard */; };
 		D91A01A51FDA7C820094CF8E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A01A41FDA7C820094CF8E /* main.m */; };
+		D91A01AD1FDA9CD60094CF8E /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = D91A01AB1FDA9CD60094CF8E /* NSData+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D91A01A11FDA7C820094CF8E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D91A01A31FDA7C820094CF8E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D91A01A41FDA7C820094CF8E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D91A01AB1FDA9CD60094CF8E /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		D91A01AC1FDA9CD60094CF8E /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				D91A01961FDA7C820094CF8E /* AppDelegate.m */,
 				D91A01981FDA7C820094CF8E /* ViewController.h */,
 				D91A01991FDA7C820094CF8E /* ViewController.m */,
+				D91A01AC1FDA9CD60094CF8E /* NSData+Base64.h */,
+				D91A01AB1FDA9CD60094CF8E /* NSData+Base64.m */,
 				D91A019B1FDA7C820094CF8E /* Main.storyboard */,
 				D91A019E1FDA7C820094CF8E /* Assets.xcassets */,
 				D91A01A01FDA7C820094CF8E /* LaunchScreen.storyboard */,
@@ -143,6 +148,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D91A019A1FDA7C820094CF8E /* ViewController.m in Sources */,
+				D91A01AD1FDA9CD60094CF8E /* NSData+Base64.m in Sources */,
 				D91A01A51FDA7C820094CF8E /* main.m in Sources */,
 				D91A01971FDA7C820094CF8E /* AppDelegate.m in Sources */,
 			);
